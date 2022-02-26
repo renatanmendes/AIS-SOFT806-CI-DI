@@ -1,0 +1,20 @@
+﻿@model SOFT806_ClassActivity.Models.Users
+
+
+<form asp-action="Login">
+
+    <h3>Page Users Login</h3>
+    <br />
+    <label asp-for="Email"> </label>
+    <input asp-for="Email" class="form-control" />
+    <br />
+    <label asp-for="Password"> </label>
+    <input asp-for="Password" class="form-control" />
+    <br />
+    <input type="submit" />
+    <br /> <br />
+
+    <h4>Not Registerted yet? Click  <a asp-area="" asp-controller="Users" asp-action="Create">here</a> to register a User.</h4>
+
+
+</form>

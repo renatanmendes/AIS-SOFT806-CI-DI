@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SOFT806_ClassActivity.Models.Admin>
+
+<<h1>Welcome to the Admin Page</h1>
+<br />
+
+<h5>Please select from the list Bellow what Actions you would like to perform.</h5>
+<br />
+
+<h5>Users Information</h5>
+<div>
+    <a asp-area="" asp-controller="Users" asp-action="Index">List of Users / Users Staff information</a>
+</div>
+
+<div>
+    <a asp-area="" asp-controller="Users" asp-action="Create">Create Users</a>
+</div>
+<br />
+
+<h5>Admin Information</h5>
+<div>
+    <a asp-area="" asp-controller="Admins" asp-action="Index">List of Admin / Edit Admin information</a>
+</div>
+
+<div>
+    <a asp-area="" asp-controller="Admins" asp-action="Create">Create new Student</a>
+</div>
+<br />
+
