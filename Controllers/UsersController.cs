@@ -170,7 +170,7 @@ namespace SOFT806_ClassActivity.Controllers
             if (aAdmin.Count != 0 && aPass.Count != 0)
                 return RedirectToAction(nameof(Home));
             else
-                return Ok("Sorry That Admin was not found, try again.");
+                return Ok("Sorry That Lecturer was not found, try again.");
 
 
 
